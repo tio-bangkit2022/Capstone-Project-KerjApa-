@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}
+    Matching-KerjApa 
+{% block content %}
+
+        <center>
+        <h1> Silahkan dipilih </h1>
+        <h2> (dapat menandai lebih dari satu kolom, sesuai dengan kondisi anda) </h2><br><br>
+        
+        <form method="post" id="multiple_select_form/>"
+           
+            <select name="Apa Saja Kecakapan yang Anda Kembangkan?"  select class="selectpicker" multiple>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select> 
+            <br><br>
+            
+            <select name="Rentang Pendidikan" select class="selectpicker" multiple>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select> 
+            <br><br>
+
+            <select name="Bidang Pekerjaan yang Anda minati" select class="selectpicker" multiple>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select> 
+            <br><br>
+            
+            <input type="submit" , value='Proses Sekarang!' >
+        </form>
+        
+        </center>
+
+ {% endblock %}
